@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mohammad.aaatest">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".L16_Volloy.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".L1_Basic.SecondActivity" />
+        <activity android:name=".L2_Animation.Animation" />
+        <activity android:name=".L3_Game.Game" />
+        <activity android:name=".L4_Audio.Audio" />
+        <activity android:name=".L5_Dialog.Dialog" />
+        <activity android:name=".L6_simpleList.SimpleListActivity" />
+        <activity android:name=".L7_CustomList.CustomListActivity" />
+        <activity android:name=".L1_Basic.ShowInfo" />
+        <activity android:name=".L1_Basic.FormInfo" />
+        <activity android:name=".L8_Toast.ToastActivity" />
+        <activity android:name=".L9_RadioButton.RadioButtonActivity" />
+        <activity android:name=".L10_RationBar.RationBar_L10" />
+        <activity android:name=".L11_Spinner.SpinnerActivity" />
+        <activity android:name=".L12_CustomView.CustomView" />
+        <activity android:name=".L13_SnackBar.SimpleSnackBar" />
+        <activity android:name=".URLOnePic" />
+        <activity android:name=".URLMultiPic" />
+        <activity android:name=".URLText" />
+        <activity android:name=".L15_JSONN.JSON" />
+        <activity android:name=".L14_URL.URLOneImg" />
+        <activity android:name=".L14_URL.URLMultiImages" />
+        <activity android:name=".L14_URL.URLTotalText" />
+        <activity android:name=".L16_Volloy.Volloyy" />
+        <activity android:name=".L15_JSONN.JSONN" />
+        <activity android:name=".L16_Volloy.StringRequest" />
+        <activity android:name=".L16_Volloy.JsonRequest" />
+        <activity android:name=".L16_Volloy.imageVolley"></activity>
+    </application>
+
+</manifest>
